@@ -16,5 +16,25 @@
     "prettier-plugin-solidity": "^1.0.0-dev.23",
     "solhint": "^3.3.7",
     "solidity-coverage": "^0.7.21"
-  }
+  },
+  "name": "5.-hardhat-smart-contract-lottery",
+  "version": "1.0.0",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hineshmiyani/5.-Hardhat-Smart-Contract-Lottery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hineshmiyani/5.-Hardhat-Smart-Contract-Lottery/issues"
+  },
+  "homepage": "https://github.com/hineshmiyani/5.-Hardhat-Smart-Contract-Lottery#readme",
+  "description": ""
 }

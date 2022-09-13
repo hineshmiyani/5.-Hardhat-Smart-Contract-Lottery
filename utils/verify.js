@@ -2,7 +2,7 @@ const { run } = require("hardhat");
 
 /********* Programmatic Verification *********/
 const verify = async (contractAddress, args) => {
-  console.log("Verfiying contract address...");
+  console.log("Verifying contract address...");
   try {
     await run("verify:verify", {
       address: contractAddress,

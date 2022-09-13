@@ -30,6 +30,9 @@ module.exports = {
       url: RINKEBY_RPC_URL,
       accounts: [METAMASK_PRIVATE_KEY],
     },
+    localhost: {
+      chainId: 31337,
+    },
   },
   etherscan: {
     // Your API key for Etherscan
