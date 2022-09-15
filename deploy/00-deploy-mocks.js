@@ -12,7 +12,7 @@ const GAS_PRICE_LINK = 1e9; // 1e9 => 1000000000
 
 // Ethe price increases very much
 // Chainlink nodes pat the gas fees to give us randomness and do external execution
-// SO they prcie of requestes change based on the price of gas
+// SO they price of requestes change based on the price of gas
 
 /*********** Deploying VRFCoordinatorV2Mock.sol ***********/
 module.exports = async function ({ getNamedAccounts, deployments }) {
