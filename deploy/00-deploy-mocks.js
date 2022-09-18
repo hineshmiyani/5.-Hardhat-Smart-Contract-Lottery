@@ -7,10 +7,10 @@ const { developmentChains } = require("../helper-hardhat-config");
  */
 const BASE_FEE = ethers.utils.parseEther("0.25");
 
-// Calclated value baed on the gas price of the chain
+// Calculated value based on the gas price of the chain
 const GAS_PRICE_LINK = 1e9; // 1e9 => 1000000000
 
-// Ethe price increases very much
+// Ether price increases very much
 // Chainlink nodes pat the gas fees to give us randomness and do external execution
 // SO they price of requestes change based on the price of gas
 
